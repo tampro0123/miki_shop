@@ -5,69 +5,31 @@
         border-radius: 8px;
         height: 48px;
     }
-    .user_name {
-        display: flex;
-        .input_name {
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 24px;
-            width: 90%;
-            padding: 10px;
-        }
-    }
+
     .input_account {
-        margin-top: 30px;
-        width: 96%;
+        margin-top: 20px;
+        width: 100%;
         padding: 10px;
         font-weight: 500;
         font-size: 16px;
         line-height: 24px;
     }
-    .checked_promotion {
+    .forgot_password {
+        text-decoration: none;
         font-family: "Montserrat";
         font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-        color: #272727;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
         letter-spacing: -0.019em;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 30px;
-        margin-bottom: 30px;
 
-        .checkbox {
-            margin-right: 14px;
-            width: 19px;
-            height: 19px;
-            border: 4px solid #0a0606;
-        }
+        color: #000000;
+        display: block;
+        margin-top: 10px;
     }
-    .checked_policy {
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: 600;
-        font-size: 16px;
-        line-height: 24px;
-        color: #272727;
-        letter-spacing: -0.019em;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-bottom: 30px;
-        .checkbox {
-            margin-right: 14px;
-            width: 24px;
-            height: 24px;
-            border: 4px solid #0a0606;
-        }
-        .primary_text {
-            color: #b78d71;
-            text-decoration: none;
-        }
-    }
+
     .btn-submit {
+        margin-top: 40px;
         width: 100%;
         height: 40px;
         display: flex;
@@ -107,12 +69,52 @@
         font-family: "Montserrat";
         font-style: normal;
         font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        align-items: center;
+        letter-spacing: -0.019em;
+        display: block;
+        margin-top: 40px;
+
+        color: #000000;
+    }
+    .login-btn {
+        margin-top: 30px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        button {
+            display: flex;
+            padding: 8px 32px;
+            border: 1px solid #6e5544;
+            border-radius: 40px;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Montserrat";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: -0.019em;
+            color: #333333;
+            width: 200px;
+            height: 56px;
+            &:hover {
+                cursor: pointer;
+                scale: 1.1;
+                transition: 0.5s;
+            }
+        }
+    }
+    .yet-account {
+        margin-top: 20px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
         font-size: 14px;
         line-height: 22px;
-        letter-spacing: -0.019em;
-        color: #000000;
-        margin-top: 35px;
-        .login_btn {
+        .register {
             color: #b78d71;
             font-family: "Montserrat";
             font-style: normal;

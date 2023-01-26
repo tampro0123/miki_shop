@@ -119,7 +119,9 @@ function FormRegister() {
                 />
                 <div>
                     Tôi đã đọc và đồng ý với các{" "}
-                    <a className={cx("primary_text")}>điều khoản chính sách</a>{" "}
+                    <a href="/" className={cx("primary_text")}>
+                        điều khoản chính sách
+                    </a>{" "}
                     của Miki Jewelry
                 </div>
             </label>
@@ -127,8 +129,8 @@ function FormRegister() {
                 Đăng Kí
             </button>
             <p className={cx("text_footer")}>
-                Bạn đã có tài khoản?
-                <a href="" className={cx("login_btn")}>
+                Bạn đã có tài khoản ?
+                <a href="/" className={cx("login_btn")}>
                     ĐĂNG NHẬP
                 </a>
             </p>
