@@ -7,7 +7,9 @@ export const Logo = ({ width = '40px', height = '40px', className }) => (
     height={height}
     viewBox="0 0 40 40"
     fill="none">
-    <path d="M0 10.3175L5.54307 2.22222L10.0375 10.3175H0Z" fill="#6E5544" />
+    <path d="M0 10.3175L5.54307 2.22222L10.0375 10.3175H0Z"
+      fill="#6E5544"
+    />
     <path d="M30.7116 0H9.13858L14.9813 10.6349H24.8689L30.7116 0Z" fill="#6E5544" />
     <path d="M29.8127 10.3175L34.3071 2.38095L40 10.3175H29.8127Z" fill="#6E5544" />
     <path d="M22.1723 40L27.5655 14.9206H40L22.1723 40Z" fill="#6E5544" />
@@ -52,5 +54,89 @@ export const Google = ({ width = '40px', height = '40px', className }) => (
           height={height} fill="white" />
       </clipPath>
     </defs>
+  </svg>
+)
+
+export const ArrowDownIcon = ({ width = '12px', height = '8px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    width={width}
+    height={height}
+    viewBox="0 0 12 8"
+    fill="none">
+    <path d="M5.24652 7.14L0.450523 1.658C-0.115477 1.013 0.344523 3.67706e-07 1.20352 3.67706e-07H10.7955C10.9878 -0.000164459 11.176 0.0550878 11.3376 0.159141C11.4993 0.263194 11.6275 0.411637 11.707 0.586693C11.7864 0.761749 11.8137 0.955998 11.7856 1.14618C11.7575 1.33636 11.6752 1.51441 11.5485 1.659L6.75252 7.139C6.65866 7.24641 6.54291 7.3325 6.41303 7.39148C6.28316 7.45046 6.14216 7.48098 5.99952 7.48098C5.85688 7.48098 5.71589 7.45046 5.58601 7.39148C5.45614 7.3325 5.34038 7.24641 5.24652 7.139V7.14Z"
+      fill="#3B3938"
+    />
+  </svg>
+)
+
+export const SearchIcon = ({ width = '24px', height = '24px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    width={width}
+    height={height}
+    viewBox="0 0 24 24"
+    fill="none">
+    <circle cx="11" cy="11" r="7" stroke="#251C17" strokeWidth="1.5" />
+    <circle cx="11" cy="11" r="7" stroke="black" strokeOpacity="0.2" strokeWidth="1.5" />
+    <path d="M20 20L17 17" stroke="#251C17" strokeWidth="1.5" strokeLinecap="round" />
+    <path d="M20 20L17 17" stroke="black" strokeOpacity="0.2" strokeWidth="1.5" strokeLinecap="round" />
+  </svg>
+)
+
+export const BasketIcon = ({ width = '32px', height = '32px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    width={width}
+    height={height}
+    viewBox="0 0 32 32"
+    fill="none">
+    <path d="M5.33334 5.33325H7.77179C8.52174 5.33325 8.89672 5.33325 9.16798 5.54505C9.43924 5.75684 9.53019 6.12062 9.71208 6.84818L10.0199 8.07954C10.2759 9.1034 10.4039 9.61533 10.7169 9.97649C10.8866 10.1723 11.0928 10.3333 11.324 10.4505C11.7503 10.6666 12.278 10.6666 13.3333 10.6666V10.6666"
+      stroke="#272727"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path d="M24 22.6667H10.0679C9.45671 22.6667 9.15112 22.6667 8.93982 22.561C8.64666 22.4142 8.44405 22.1331 8.39754 21.8086C8.36402 21.5747 8.46065 21.2848 8.65392 20.705V20.705C8.86804 20.0626 8.97511 19.7414 9.15649 19.4916C9.40793 19.1454 9.76379 18.8889 10.1718 18.7598C10.4661 18.6667 10.8047 18.6667 11.4818 18.6667H18.6667"
+      stroke="#272727"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path d="M20.1945 18.6667H14.0552C12.4368 18.6667 11.6277 18.6667 11.0682 18.1928C10.5087 17.7188 10.3757 16.9207 10.1096 15.3243L9.91554 14.1599C9.64529 12.5384 9.51016 11.7276 9.9595 11.1972C10.4089 10.6667 11.2308 10.6667 12.8747 10.6667H23.4306C24.881 10.6667 25.6062 10.6667 25.8993 11.141C26.1924 11.6153 25.8681 12.2639 25.2195 13.5612L23.7723 16.4556C23.2343 17.5314 22.9654 18.0694 22.4821 18.3681C21.9988 18.6667 21.3974 18.6667 20.1945 18.6667Z"
+      stroke="#272727"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <circle cx="22.6667"
+      cy="26.6666"
+      r="1.33333"
+      fill="#272727"
+    />
+    <circle cx="12"
+      cy="26.6666"
+      r="1.33333"
+      fill="#272727" />
+  </svg>
+)
+
+export const UserIcon = ({ width = '32px', height = '32px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    className={className}
+    width={width}
+    height={height}
+    viewBox="0 0 32 32"
+    fill="none">
+    <circle cx="16"
+      cy="9.33333"
+      r="5.33333"
+      stroke="#272727"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
+    <path d="M7.5292 22.9362C8.39099 20.1977 11.105 18.6667 13.9759 18.6667H18.0241C20.8949 18.6667 23.609 20.1977 24.4708 22.9362C24.8584 24.168 25.1852 25.5686 25.2944 27.0009C25.3364 27.5516 24.8856 28.0001 24.3333 28.0001H7.66665C7.11437 28.0001 6.6636 27.5516 6.70559 27.0009C6.81481 25.5686 7.14155 24.168 7.5292 22.9362Z"
+      stroke="#272727"
+      strokeWidth="2"
+      strokeLinecap="round"
+    />
   </svg>
 )

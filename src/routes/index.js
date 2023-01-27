@@ -4,7 +4,7 @@ import Login from '~/pages/auth/login/Login';
 
 
 const publicRoutes = [
-  { path: '/', component: Home },
+  { path: '/home', component: Home },
   { path: '/register', component: Register },
   { path: '/login', component: Login }
 ]
