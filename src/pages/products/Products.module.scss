@@ -1,0 +1,202 @@
+.wrapper {
+    display: flex;
+    margin-top: 103px;
+    min-height: 2280px;
+    max-height: 3512px;
+    flex-direction: column;
+    background: #fff9f6;
+    width: 100%;
+    .section {
+        width: 100%;
+        height: 90vh;
+        .img-section {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .contain {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 20px 5%;
+        .heading {
+            margin-bottom: 30px;
+            .head-text {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                display: flex;
+                align-items: center;
+                letter-spacing: -0.019em;
+                color: #626262;
+            }
+        }
+        .portfolio {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .port-text {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 40px;
+                text-align: center;
+                letter-spacing: -0.019em;
+                color: #272727;
+            }
+        }
+
+        .dropdown-sort {
+            display: flex;
+            flex-direction: row;
+            position: relative;
+            align-items: center;
+            .sort {
+                margin-right: 10px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.15px;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .dropdown {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 5px 5px;
+            gap: 8px;
+            position: absolute;
+            top: 40px;
+            z-index: 1;
+            width: 151px;
+            background: #ffffff;
+            div {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: -0.019em;
+            }
+        }
+        .products {
+            display: flex;
+            width: 100%;
+            margin-top: 30px;
+
+            .product-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                .product {
+                    margin-bottom: 40px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .product-img {
+                        margin-bottom: 20px;
+                        width: 254px;
+                        height: 300px;
+                        border-radius: 8px;
+                    }
+
+                    .product-name {
+                        margin-bottom: 10px;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 28px;
+                        text-align: center;
+                        letter-spacing: -0.019em;
+                        color: #272727;
+                    }
+
+                    .product-price {
+                        margin-bottom: 10px;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 28px;
+                        letter-spacing: -0.019em;
+                        color: #92715a;
+                    }
+
+                    .btn-add {
+                        padding: 0;
+                        width: 254px;
+                        height: 40px;
+                        border-radius: 10px;
+                        border: none;
+                        outline: none;
+                        font-family: "Montserrat";
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 24px;
+                        text-align: center;
+                        letter-spacing: 0.15px;
+                        color: #ffffff;
+                        background: linear-gradient(
+                                0deg,
+                                rgba(0, 0, 0, 0.2),
+                                rgba(0, 0, 0, 0.2)
+                            ),
+                            #251c17;
+                        &:hover {
+                            cursor: pointer;
+                            opacity: 0.9;
+                        }
+                    }
+                }
+            }
+        }
+        .paging {
+            display: flex;
+            justify-content: flex-end;
+            .pg-btn {
+                margin-left: 10px;
+                width: 40px;
+                height: 40px;
+                border: 1px solid #272727;
+                border-radius: 0px;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+
+                letter-spacing: 0.15px;
+                color: #272727;
+                background-color: transparent;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.6;
+                }
+            }
+            .active {
+                background: linear-gradient(
+                        0deg,
+                        rgba(0, 0, 0, 0.2),
+                        rgba(0, 0, 0, 0.2)
+                    ),
+                    #251c17;
+                color: #ffffff;
+            }
+        }
+    }
+}

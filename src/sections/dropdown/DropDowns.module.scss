@@ -2,8 +2,10 @@
     width: 87%;
     display: flex;
     height: 186px;
-    position: relative;
-    top: 100px;
+    position: fixed;
+    top: 190px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     margin: 0 auto;
     background: #fff9f6;
     justify-content: space-around;
@@ -11,6 +13,7 @@
     border-bottom: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
+
     .wrapper {
         width: 100%;
         text-align: center;
