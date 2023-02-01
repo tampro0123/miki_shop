@@ -9,7 +9,7 @@ import {
     UserIcon,
 } from "~/components/Icons";
 import DropDowns from "~/sections/dropdown/DropDowns";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 
 const cx = classNames.bind(styles);
 
@@ -17,11 +17,12 @@ function Header() {
     const [dropDown, setDropDown] = useState(false);
 
     const handleClick = () => {
+        console.log("1");
         setDropDown(!dropDown);
     };
 
     return (
-        <>
+        <Fragment>
             <div className={cx("wrapper")}>
                 <div className={cx("header-container")}>
                     <div className={cx("menu")}>
@@ -55,7 +56,7 @@ function Header() {
                 </div>
             </div>
             {dropDown && <DropDowns />}
-        </>
+        </Fragment>
     );
 }
 

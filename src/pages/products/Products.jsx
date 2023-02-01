@@ -2,7 +2,8 @@ import Header from "~/components/Layout/DefaultLayout/Header";
 import styles from "./Products.module.scss";
 import classNames from "classnames/bind";
 import Image from "~/components/Image";
-import { useState } from "react";
+import { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
 import Footer from "~/components/Layout/DefaultLayout/Footer";
 import {
     ArrowDownIcon,
@@ -80,6 +81,7 @@ const productDefault = products.slice();
 function Products() {
     const [isShowDrop, setIsShowDrop] = useState(false);
     const [productSorted, setProductSorted] = useState([]);
+    console.log(productSorted);
 
     const handleSetDropdown = () => {
         setIsShowDrop(!isShowDrop);
@@ -128,7 +130,7 @@ function Products() {
         return productSorted;
     };
     return (
-        <>
+        <Fragment>
             <Header />
             <div className={cx("wrapper")}>
                 <div className={cx("section")}>
@@ -170,17 +172,19 @@ function Products() {
                     </div>
                     <div className={cx("products")}>
                         <div className={cx("product-list")}>
-                            {(Array.isArray(productSorted)
+                            {(productSorted.length > 0
                                 ? productSorted
                                 : products
                             ).map((product, index) => {
                                 return (
                                     <div key={index} className={cx("product")}>
-                                        <Image
-                                            src={product.img}
-                                            alt={product.name}
-                                            className={cx("product-img")}
-                                        />
+                                        <Link to={"/products/id"}>
+                                            <Image
+                                                src={product.img}
+                                                alt={product.name}
+                                                className={cx("product-img")}
+                                            />
+                                        </Link>
                                         <h3 className={cx("product-name")}>
                                             {product.name}
                                         </h3>
@@ -207,7 +211,7 @@ function Products() {
                 </div>
             </div>
             <Footer />
-        </>
+        </Fragment>
     );
 }
 

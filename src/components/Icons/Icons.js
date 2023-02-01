@@ -257,3 +257,83 @@ export const ArrowUptIcon = ({ width = '12px', height = '8px', className }) => (
     <path d="M5.24652 0.859999L0.450523 6.342C-0.115477 6.987 0.344523 8 1.20352 8H10.7955C10.9878 8.00016 11.176 7.94491 11.3376 7.84086C11.4993 7.73681 11.6275 7.58836 11.707 7.41331C11.7864 7.23825 11.8137 7.044 11.7856 6.85382C11.7575 6.66364 11.6752 6.48559 11.5485 6.341L6.75252 0.861C6.65866 0.75359 6.54291 0.667504 6.41303 0.60852C6.28316 0.549536 6.14216 0.51902 5.99952 0.51902C5.85688 0.51902 5.71589 0.549536 5.58601 0.60852C5.45614 0.667504 5.34038 0.75359 5.24652 0.861V0.859999Z" fill="black" fillOpacity="0.2" />
   </svg>
 )
+
+export const StarYellowIcon = ({ width = '14px', height = '14px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 14 14"
+    fill="none">
+    <path d="M7 11.2516L11.326 14L10.178 8.82L14 5.33474L8.967 4.88526L7 0L5.033 4.88526L0 5.33474L3.822 8.82L2.674 14L7 11.2516Z"
+      fill="#FBBC05"
+      fillOpacity="0.6" />
+  </svg>
+)
+
+export const StarGreyIcon = ({ width = '14px', height = '14px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 14 14"
+    fill="none">
+    <path d="M7 11.2516L11.326 14L10.178 8.82L14 5.33474L8.967 4.88526L7 0L5.033 4.88526L0 5.33474L3.822 8.82L2.674 14L7 11.2516Z"
+      fill="#E9E9E9" />
+    <path d="M7 11.2516L11.326 14L10.178 8.82L14 5.33474L8.967 4.88526L7 0L5.033 4.88526L0 5.33474L3.822 8.82L2.674 14L7 11.2516Z"
+      fill="black"
+      fillOpacity="0.2" />
+  </svg>
+)
+export const SubtractIcon = ({ width = '32px', height = '32px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 32 32"
+    fill="none">
+    <path d="M24 16L8 16"
+      stroke="#251C17"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+    <path d="M24 16L8 16"
+      stroke="black"
+      strokeOpacity="0.2"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+  </svg>
+)
+
+export const AddIcon = ({ width = '32px', height = '32px', className }) => (
+  <svg xmlns="http://www.w3.org/2000/svg"
+    width={width}
+    height={height}
+    className={className}
+    viewBox="0 0 32 32"
+    fill="none">
+    <path d="M16 8L16 24"
+      stroke="#251C17"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+    <path d="M16 8L16 24"
+      stroke="black"
+      strokeOpacity="0.2"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+    <path d="M24 16L8 16"
+      stroke="#251C17"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+    <path d="M24 16L8 16"
+      stroke="black"
+      strokeOpacity="0.2"
+      strokeWidth="2.66667"
+      strokeLinecap="round"
+    />
+  </svg>
+)
