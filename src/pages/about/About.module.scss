@@ -1,0 +1,26 @@
+.wrapper {
+  position: relative;
+  top: 101px;
+  padding: 0 5% 100px 5%;
+  background: #fff9f6;
+  .nav {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Montserrat';
+    letter-spacing: -0.019em;
+    position: relative;
+    top: 30px;
+    display: flex;
+    a {
+      color: #626262;
+      padding: 10px;
+    }
+    .icon {
+      margin-top: 14px;
+    }
+    .style-product {
+      font-weight: 900;
+    }
+  }
+}
