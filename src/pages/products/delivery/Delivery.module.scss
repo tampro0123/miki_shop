@@ -1,0 +1,102 @@
+.wraper {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+    .head {
+        margin-bottom: 40px;
+        font-family: "Montserrat";
+        font-style: normal;
+        color: #000000;
+        letter-spacing: -0.019em;
+
+        h1 {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+        }
+        p {
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+    .table {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.019em;
+        .table-head {
+            color: #6e5544;
+            display: flex;
+            flex-direction: row;
+            .first-col {
+                width: 170px;
+                height: 44px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "Montserrat";
+                width: 400px;
+                height: 44px;
+                background: #ffffff;
+                border-width: 1px 1px 0px 1px;
+                border-style: solid;
+                border-color: #626262;
+            }
+        }
+        .table-contain {
+            display: flex;
+            flex-direction: row;
+            .first-col {
+                width: 170px;
+                height: 44px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 22px;
+                letter-spacing: -0.019em;
+                color: #272727;
+                width: 400px;
+                height: 44px;
+                background: #ffffff;
+                border-width: 1px 1px 1px 1px;
+                border-style: solid;
+                border-color: #626262;
+            }
+        }
+    }
+
+    .footer {
+        margin-top: 40px;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        display: flex;
+        letter-spacing: -0.019em;
+        display: flex;
+        flex-direction: column;
+        .warning {
+            margin-bottom: 10px;
+            color: #d2311b;
+        }
+        p {
+            color: #000000;
+        }
+    }
+}

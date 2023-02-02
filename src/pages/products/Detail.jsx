@@ -3,6 +3,8 @@ import Header from "~/components/Layout/DefaultLayout/Header";
 import Image from "~/components/Image";
 import ProductInfo from "./productInfo/ProductInfo";
 import Policy from "./policy/Policy";
+import Delivery from "./delivery/Delivery";
+import Comment from "./comment/Comment";
 import {
     ArrowRightIcon,
     StarGreyIcon,
@@ -257,6 +259,8 @@ function DetailProduct() {
                     <div className={cx("nav-product-info")}>
                         {activeNav === 0 ? <ProductInfo {...product} /> : null}
                         {activeNav === 1 ? <Policy {...product} /> : null}
+                        {activeNav === 2 ? <Delivery /> : null}
+                        {activeNav === 3 ? <Comment {...product} /> : null}
                     </div>
                 </div>
                 <div className={cx("product-saw ")}></div>

@@ -70,6 +70,10 @@
 
             position: absolute;
             top: 390px;
+            &:hover {
+                cursor: pointer;
+                opacity: 0.9;
+            }
         }
     }
 
@@ -82,6 +86,7 @@
         height: 537px;
         justify-content: space-around;
         margin-bottom: 200px;
+
         .aboutus-slogan {
             width: 50%;
             h2 {
@@ -124,6 +129,10 @@
                         rgba(0, 0, 0, 0.2)
                     ),
                     #251c17;
+                &:hover {
+                    cursor: pointer;
+                    opacity: 0.9;
+                }
             }
         }
         .aboutus-img {
@@ -222,6 +231,10 @@
                             rgba(0, 0, 0, 0.2)
                         ),
                         #251c17;
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.9;
+                    }
                 }
             }
         }
@@ -291,6 +304,9 @@
                         );
                         width: 30%;
                         height: 100%;
+                        &:hover {
+                            cursor: pointer;
+                        }
                         .img-30 {
                             border-top-left-radius: 16px;
                             width: 100%;
@@ -303,6 +319,9 @@
                         );
                         width: 30%;
                         height: 100%;
+                        &:hover {
+                            cursor: pointer;
+                        }
                         .img-30 {
                             height: 100%;
                             width: 100%;
@@ -335,6 +354,9 @@
                         );
                         width: 57%;
                         height: 100%;
+                        &:hover {
+                            cursor: pointer;
+                        }
                         .img-60 {
                             border-bottom-left-radius: 16px;
                             width: 100%;
@@ -348,6 +370,9 @@
                         );
                         width: 37%;
                         height: 100%;
+                        &:hover {
+                            cursor: pointer;
+                        }
 
                         .img-40 {
                             height: 100%;
@@ -360,6 +385,9 @@
                 filter: drop-shadow(0px 4px 52px rgba(15, 15, 15, 0.25));
                 width: 20%;
                 height: 100%;
+                &:hover {
+                    cursor: pointer;
+                }
                 .img-100 {
                     border-top-right-radius: 16px;
                     border-bottom-right-radius: 16px;

@@ -2,8 +2,7 @@
     position: relative;
     top: 101px;
     background: #fff9f6;
-    padding: 0 5%;
-    margin-bottom: 200px;
+    padding: 0 5% 100px 5%;
     .nav {
         position: relative;
         top: 30px;
@@ -425,7 +424,8 @@
             }
         }
         .nav-product-info {
-            height: 600px;
+            padding-bottom: 40px;
+            max-height: 2000px;
         }
     }
 }
