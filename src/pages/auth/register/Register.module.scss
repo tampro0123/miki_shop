@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    height: 1606px;
+    overflow-y: overlay;
+    display: flex;
+    justify-content: center;
+
+    background: #fff9f6;
+}
+.body {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 1136px;
+    height: 852px;
+    top: 50px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 86px rgba(0, 0, 0, 0.15);
+    .img-register {
+        width: 50%;
+        height: 100%;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+    }
+    .form {
+        font-family: var(--font-family) !important;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        background: rgba(255, 249, 246, 0.8);
+
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+        padding: 5%;
+        .header {
+            position: absolute;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .logo {
+                position: absolute;
+                width: 40px;
+                height: 40px;
+                top: 0px;
+            }
+            .brand_name {
+                position: absolute;
+                width: 285px;
+                height: 48px;
+                top: 40px;
+                font-family: "Playfair Display";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 48px;
+                text-transform: uppercase;
+                color: #272727;
+            }
+        }
+        .form_register {
+            width: 100%;
+            margin-top: 30%;
+
+            .title {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 28px;
+                /* identical to box height, or 140% */
+
+                letter-spacing: -0.019em;
+
+                color: #000000;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}

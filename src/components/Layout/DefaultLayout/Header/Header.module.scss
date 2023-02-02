@@ -1,0 +1,144 @@
+.wrapper {
+    height: 103px;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    background: #fff9f6;
+    top: 0;
+    width: 100%;
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 90%;
+        height: 87px;
+        .menu {
+            padding: 50px 0 0 0;
+            display: flex;
+            justify-content: space-around;
+            width: 33%;
+
+            .home {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.15px;
+                text-decoration: none;
+                color: #251c17;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .products {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: -0.019em;
+                text-align: center;
+                color: #272727;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .about-us {
+                font-family: "Montserrat";
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                /* identical to box height, or 150% */
+
+                text-align: center;
+                letter-spacing: -0.019em;
+                color: #272727;
+                text-decoration: none;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 33%;
+            text-decoration: none;
+            &:hover {
+                cursor: pointer;
+            }
+            .logo-icon {
+                margin-bottom: 10px;
+            }
+            .logo-name {
+                font-family: "Playfair Display";
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                text-transform: uppercase;
+                color: #272727;
+                line-height: 48px;
+            }
+        }
+        .header-bar {
+            padding: 45px 0 0 0;
+            display: flex;
+            justify-content: space-around;
+            width: 33%;
+            .search {
+                position: relative;
+
+                .input-search {
+                    display: block;
+                    width: 279px;
+                    height: 40px;
+                    border: 1px solid #272727;
+                    border-radius: 8px;
+                    padding: 8px 16px;
+                    gap: 8px;
+                    background: #ffffff;
+                    font-family: "Montserrat";
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #a9a9a9;
+                    padding-right: 20px;
+                }
+                .search-icon {
+                    position: absolute;
+                    top: 0;
+                    bottom: 5px;
+                    margin: auto;
+                    height: 30px;
+                    width: 30px;
+                    border: none;
+                    background: none;
+                    padding: 0;
+                    right: 10px;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+            .basket-icon {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .user-icon {
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
