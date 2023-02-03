@@ -9,7 +9,7 @@ const publicRoutes = [
   { path: '/', component: Home },
   { path: '/home', component: Home },
   { path: '/register', component: Register },
-  { path: '/login', component: Login },
+  // { path: '/login', component: Login },
   { path: '/products', component: Products },
   { path: '/products/:id', component: DetailProduct },
   { path: '/about', component: About }
